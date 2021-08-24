@@ -143,7 +143,7 @@ export class Template {
         let plotter;
         plotter = new plotters.BackgroundPlotter(dsName + ".main.background");
         mgr.setPlotter(plotter.getName(), plotter);
-        plotter = new plotters.CLiveOrderPlotter(dsName + ".main.main");
+        // plotter = new plotters.CLiveOrderPlotter(dsName + ".main.main");
         mgr.setPlotter(plotter.getName(), plotter);
     }
 
@@ -152,7 +152,7 @@ export class Template {
         let plotter;
         plotter = new plotters.BackgroundPlotter(dsName + ".main.background");
         mgr.setPlotter(plotter.getName(), plotter);
-        plotter = new plotters.CLiveTradePlotter(dsName + ".main.main");
+        // plotter = new plotters.CLiveTradePlotter(dsName + ".main.main");
         mgr.setPlotter(plotter.getName(), plotter);
     }
 

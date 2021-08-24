@@ -3,6 +3,7 @@ import {Control} from './control'
 import Kline from './kline'
 import {Template} from './templates'
 
+
 export class Chart {
 
     static strPeriod = {

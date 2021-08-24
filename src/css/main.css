@@ -51,14 +51,24 @@ body {
     z-index: 3
 }
 
+.chart_container.dark {
+    border: solid 1px #404040;
+}
+
+.chart_container.light {
+    border: solid 1px #afb1b3;
+}
+
+
+
 .chart_container.dark #chart_toolbar {
     background-color: #0a0a0a;
-    border-bottom-color: #404040
+    /* border-bottom-color: #404040; */
 }
 
 .chart_container.light #chart_toolbar {
     background-color: #fff;
-    border-bottom-color: #afb1b3
+    /* border-bottom-color: #afb1b3; */
 }
 
 .chart_container .chart_toolbar_sep {
@@ -814,24 +824,32 @@ body {
 
 .chart_container.dark #chart_parameter_settings {
     background-color: rgba(0, 0, 0, 0.9);
-    border-color: rgba(0, 0, 0, 0.9);
+    border-color: rgba(255, 255, 255, 0.2);
     color: #ccc;
 }
 
 .chart_container.dark #chart_parameter_settings #close_settings {
     background: #1887da;
-    color: #eee
+    color: #eee;
+}
+
+.chart_container.dark #chart_parameter_settings table {
+    color: #ccc;
 }
 
 .chart_container.light #chart_parameter_settings {
     background-color: rgba(244, 244, 244, 0.8);
     border-color: #afb1b3;
-    color: #393c40
+    color: #393c40;
 }
 
 .chart_container.light #chart_parameter_settings #close_settings {
     background: #1478c8;
-    color: #eee
+    color: #eee;
+}
+
+.chart_container.light #chart_parameter_settings table {
+    color: #393c40;
 }
 
 .chart_container input,
